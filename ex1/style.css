@@ -1,0 +1,58 @@
+html, body, div, p, header, main, nav{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-image: url("background-image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header h1{
+  color: white;
+  font-family: arial;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+main{
+  float: left;
+  width: 100%;
+  height: calc(100% - 120px);
+}
+nav ul{
+ list-style-type: none;
+ }
+ nav{
+   float:left;
+   background-color: rgba(39, 171, 186, 0.3);
+   color:#0b4427;
+   height: 100%;
+ }
+ section{
+     float: left;
+ }
+.blok1{
+  float: left;
+  background-color: rgba(39, 171, 186, 0.3);
+  height: 200px;
+  width: 200px;
+  overflow: hidden
+}
+.blok2{
+  float: left;
+  background-color: rgba(39, 171, 186, 0.3);
+  height: 200px;
+  width: 200px;
+  overflow: hidden
+}
+footer{
+  background-color: rgb(11, 68, 39);
+  height: 40px;
+  width: 100%;
+  text-align: right;
+}
